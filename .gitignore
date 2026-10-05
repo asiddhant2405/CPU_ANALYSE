@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled Binaries & Temp Workspaces
+*.exe
+*.o
+*.obj
+*.out
+cpu_bench_*
+
+# Databases
+backend/app/storage/*.db
+backend/app/storage/*.sqlite3
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
